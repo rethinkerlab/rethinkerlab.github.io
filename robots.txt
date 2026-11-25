@@ -1,6 +1,3 @@
-# Job Copilot crawler acceptance test site (rethinkerlab/job-copilot#146). Not a real company.
-# Phase 1 (now): everything allowed. Phase 2 (the test): replace with
-#   User-agent: JobCopilotBot
-#   Disallow: /
-User-agent: *
-Allow: /
+# Job Copilot crawler acceptance test (rethinkerlab/job-copilot#146), phase 2: block.
+User-agent: TallyJobs
+Disallow: /
